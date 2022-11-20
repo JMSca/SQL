@@ -1,0 +1,25 @@
+--Create a grocery store database
+
+CREATE TABLE Sensho (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, price INTEGER);
+
+INSERT INTO Sensho VALUES (1, "Sweaters", 10, 19.99);
+INSERT INTO Sensho VALUES (2, "Leggings", 12, 14.99);
+INSERT INTO Sensho VALUES (3, "t-shirts", 15, 9.99);
+INSERT INTO Sensho VALUES (4, "Boots", 12, 24.99);
+INSERT INTO Sensho VALUES (5, "Jeans I", 8, 22.99);
+INSERT INTO Sensho VALUES (6, "Jeans", 10, 22.99);
+INSERT INTO Sensho VALUES (7, "Leggings I", 15, 14.99);
+INSERT INTO Sensho VALUES (8, "Hats", 5, 12.99);
+INSERT INTO Sensho VALUES (9, "Bras", 12, 24.99);
+INSERT INTO Sensho VALUES (10, "Coats", 10, 49.99);
+INSERT INTO Sensho VALUES (11, "Scarves", 5, 12.99);
+INSERT INTO Sensho VALUES (12, "Earrings", 10, 14.99);
+INSERT INTO Sensho VALUES (13, "Turtlenecks", 12, 14.99);
+INSERT INTO Sensho VALUES (14, "Socks", 12, 9.99);
+INSERT INTO Sensho VALUES (15, "Sneakers", 11, 24.99);
+
+--display the database ordered by price. 
+
+SELECT * FROM Sensho;
+SELECT SUM(quantity) FROM Sensho;
+SELECT price, SUM(quantity) FROM Sensho GROUP BY price;
