@@ -1,0 +1,14 @@
+/* What does the app's SQL look like? */
+
+CREATE TABLE weight_loss (id INTEGER PRIMARY KEY, name TEXT, weight INTEGER, date TEXT);
+
+INSERT INTO weight_loss VALUES (1, "Jane", 170, 2022-11-01);
+INSERT INTO weight_loss VALUES (2, "Kim", 150, 2022-01-10);
+INSERT INTO weight_loss VALUES (3, "Bill", 185, 2022-07-04);
+
+UPDATE weight_loss SET weight =165 WHERE id=1;
+
+SELECT * FROM weight_loss;
+
+DELETE FROM weight_loss WHERE id=3;
+SELECT * FROM weight_loss;
