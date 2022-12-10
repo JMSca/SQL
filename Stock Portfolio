@@ -11,3 +11,6 @@ INSERT INTO portfolio (id, name, value) VALUES
   (2, 'Stock B', 2000),
   (3, 'Stock C', 1500),
   (4, 'Stock D', 2500);
+
+-- Query the portfolio table to get the total value
+SELECT SUM(value) AS total_value FROM portfolio;
