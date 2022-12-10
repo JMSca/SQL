@@ -1,3 +1,5 @@
-### My name is Jane Scacchi and I am a data analyst with a background in SQL.
-### I am excited to share my portfolio with you, which includes a variety of projects I have worked on using SQL to analyze and manipulate data. 
-### I hope you enjoy exploring my work and please don't hesitate to contact me if you have any questions.
+### Welcome to my GitHub repository! 
+### Here, you will find a collection of projects and code samples showcasing my skills and experience as a data analyst. 
+### I am passionate about using SQL to extract insights from data and solve complex problems. 
+### I hope you enjoy exploring my work and please feel free to reach out to me with any questions or comments. 
+### Thank you for visiting!
