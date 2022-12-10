@@ -1,0 +1,13 @@
+-- Create a table to store portfolio information
+CREATE TABLE portfolio (
+  id INT PRIMARY KEY,
+  name VARCHAR(255),
+  value DECIMAL(10,2)
+);
+
+-- Insert some sample data into the portfolio table
+INSERT INTO portfolio (id, name, value) VALUES
+  (1, 'Stock A', 1000),
+  (2, 'Stock B', 2000),
+  (3, 'Stock C', 1500),
+  (4, 'Stock D', 2500);
